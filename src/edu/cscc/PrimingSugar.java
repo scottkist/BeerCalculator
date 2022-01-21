@@ -32,5 +32,7 @@ public class PrimingSugar extends BeerStyle {
                 Double amountOfSugar = 15.195 * getGallonsOfBeer() * (co2Volume - 3.0378 + (0.050062 * Math.sqrt(getBeerTemperature())));
                 System.out.println("Amount of Sugar" + amountOfSugar);
                 return amountOfSugar;
+
+                //Testing Pull Requests.
         }
 }
